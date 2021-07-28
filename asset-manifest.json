@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/yahtzee/static/css/main.cb966875.chunk.css",
+    "main.js": "/yahtzee/static/js/main.3616cc9f.chunk.js",
+    "main.js.map": "/yahtzee/static/js/main.3616cc9f.chunk.js.map",
+    "runtime-main.js": "/yahtzee/static/js/runtime-main.25a4c06a.js",
+    "runtime-main.js.map": "/yahtzee/static/js/runtime-main.25a4c06a.js.map",
+    "static/js/2.0f3a23e8.chunk.js": "/yahtzee/static/js/2.0f3a23e8.chunk.js",
+    "static/js/2.0f3a23e8.chunk.js.map": "/yahtzee/static/js/2.0f3a23e8.chunk.js.map",
+    "index.html": "/yahtzee/index.html",
+    "static/css/main.cb966875.chunk.css.map": "/yahtzee/static/css/main.cb966875.chunk.css.map",
+    "static/js/2.0f3a23e8.chunk.js.LICENSE.txt": "/yahtzee/static/js/2.0f3a23e8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.25a4c06a.js",
+    "static/js/2.0f3a23e8.chunk.js",
+    "static/css/main.cb966875.chunk.css",
+    "static/js/main.3616cc9f.chunk.js"
+  ]
+}
