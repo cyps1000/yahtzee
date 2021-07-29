@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100%;
 }
 
 .App-title {
@@ -14,4 +14,119 @@
   display: inline-block;
   font-size: 5rem;
   width: 50%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .Game {
+    width: 100%;
+    background: white;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    align-items: center;
+    height: 100%;
+  }
+
+  .Game-header {
+    width: 100%;
+    background: linear-gradient(-45deg, #3a7fb7, #2785b0);
+    background-size: 400% 400%;
+    animation: Gradient 15s ease infinite;
+    min-width: 100%;
+  }
+
+  .App-title {
+    margin-top: 1rem;
+    color: white;
+    margin-bottom: 0;
+    font-weight: 100;
+    display: inline-block;
+    font-size: 3rem;
+    width: 100%;
+  }
+
+  .Game-dice-section {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+  }
+  .fa-5x {
+    font-size: 3.4rem !important;
+  }
+  .ScoreTable {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    width: 100%;
+    background-color: white;
+    padding: 0.5rem;
+  }
+  .ScoreTable-section {
+    vertical-align: top;
+    width: 100%;
+  }
+  .ScoreTable table {
+    width: 100%;
+    margin: 0;
+    min-width: 300px;
+    padding: 0 0.5rem;
+  }
+  .RuleRow td {
+    padding: 0.1rem;
+    font-size: 0.9rem;
+    border-bottom: solid 1px black;
+  }
+  .RuleRow-name {
+    width: 50%;
+    text-align: left;
+  }
+  .RuleRow-score {
+    width: 50%;
+    text-align: right;
+  }
+  .ScoreTable-section {
+    vertical-align: top;
+    width: 100%;
+  }
+  .Dice {
+    padding: 1rem 0.25rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
+  .Game {
+    width: 75%;
+    margin-top: 4rem;
+  }
+  .Game-header {
+    min-width: 100%;
+  }
+  .RuleRow td {
+    padding: 0.1rem;
+    font-size: 1.1rem;
+    border-bottom: solid 1px black;
+  }
+  .fa-5x {
+    font-size: 4.5rem !important;
+  }
+}
+
+@media only screen and (min-width: 411px) and (max-width: 426px) {
+  .Game-header {
+    min-width: 100%;
+  }
+  .fa-5x {
+    font-size: 4rem !important;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 320px) {
+  .Game-header {
+    min-width: 100%;
+  }
 }

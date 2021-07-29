@@ -21,7 +21,7 @@ import {
   smallStraight,
   largeStraight,
   yahtzee,
-  chance
+  chance,
 } from "../../utils";
 
 /**
@@ -36,7 +36,7 @@ class ScoreTable extends Component {
   /**
    * Handles getting the total score
    */
-  getTotalScore() {
+  getTotalScore = () => {
     const { scores } = this.props;
     let totalScore = 0;
 
@@ -44,7 +44,7 @@ class ScoreTable extends Component {
       if (scores[key]) totalScore += scores[key];
     }
     return totalScore;
-  }
+  };
 
   render() {
     const { scores, doScore } = this.props;

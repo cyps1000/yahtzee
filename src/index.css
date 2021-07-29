@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+html {
+  height: 100%;
+  overflow: auto;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -5,4 +11,8 @@ body {
   font-weight: 100;
   height: 100vh;
   background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
